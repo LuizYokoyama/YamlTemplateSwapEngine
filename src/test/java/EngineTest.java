@@ -10,9 +10,9 @@ public class EngineTest {
 
     @Test
     void swapTest() {
-        String pathToJsonMap = "src/main/resources/jsonMap.json";
-        String pathToYmlTemplate ="src/main/resources/swappedFile.yml";
-        String pathToSwappedYml = "src/main/resources/template1.yml";
+        String pathToJsonMap = "/home/luiz/dev/YamlTemplateEngine/YamlTemplateEngine/src/main/resources/jsonMap.json";
+        String pathToYmlTemplate ="/home/luiz/dev/YamlTemplateEngine/YamlTemplateEngine/src/main/resources/template1.yml";
+        String pathToSwappedYml = "/home/luiz/dev/YamlTemplateEngine/YamlTemplateEngine/src/main/resources/swappedFile.yml";
 
         try {
             swap(pathToJsonMap, pathToYmlTemplate, pathToSwappedYml);
